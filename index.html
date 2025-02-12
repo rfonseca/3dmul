@@ -1,5 +1,9 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+    </style>
     <script src="aframe.min.js"></script>
     <script src="aframe-orbit-controls-component.min.js"></script>
     <script>
@@ -64,11 +68,11 @@
   <span id='sp-z'>1</span> =
   <span id='sp-mul'></span> </h2>
 </div>
-    <a-scene embedded>
+    <a-scene embedded style="width: 80vw; height: 80vh;">
       <a-sky color="#ECECEC"></a-sky>
     <a-entity
           id="camera"
-          camera="fov: 70; zoom: 2;"
+          camera="fov: 70; zoom: 4;"
           position="20 20 20"
           orbit-controls="
               autoRotate: false;
